@@ -1,4 +1,4 @@
-# ☁️ Azure Project 4 — Terraform Azure VM Deployment
+# ☁️ Azure Project 1 — Terraform Azure VM Deployment
 
 ## 📌 Project Overview
 
