@@ -55,15 +55,23 @@ ping <private-ip>
 
 ## 🏗️ Architecture
 
-The deployment includes:
-
-- Azure Virtual Network (VNet)
-- Subnet
-- VM1 with Public IP Access
-- VM2 with Private Internal Access
-- Network Security Group (NSG)
-- Network Interface Cards (NICs)
-
+```text
+Laptop
+   │
+   ▼
+Azure Public IP
+   │
+   ▼
+Network Security Group (NSG)
+   │
+   ▼
+VM1 (Public Access Enabled)
+   │
+Private Network Communication
+   │
+   ▼
+VM2 (Private/Internal Access)
+```
 Traffic was tested between:
 
 - Laptop → VM1 using public IP and SSH
