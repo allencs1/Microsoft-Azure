@@ -54,16 +54,30 @@ terraform destroy
 
 ## 🏗️ Architecture
 
-Terraform authenticates to Azure using Azure CLI credentials and provisions infrastructure resources in dependency order.
-
-The deployment includes:
-
-- Resource Group
-- Virtual Network (VNet)
-- Subnet
-- Public IP Address
-- Network Interface
-- Linux Virtual Machine
+```text
+Terraform Configuration Files
+           │
+           ▼
+Terraform CLI
+           │
+           ▼
+Azure Resource Group
+           │
+           ▼
+Virtual Network (VNet)
+           │
+           ▼
+Subnet
+           │
+           ▼
+Public IP Address
+           │
+           ▼
+Network Interface Card (NIC)
+           │
+           ▼
+Linux Virtual Machine
+```
 
 Terraform tracks all deployed resources in the Terraform state file, allowing infrastructure to be updated or destroyed consistently.
 
