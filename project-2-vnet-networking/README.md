@@ -105,9 +105,8 @@ This project demonstrated:
 
 ## 📸 Screenshots
 
-### VM Overview
+![VM Overview](../screenshots/vm-overview.png)
 
-(Add screenshot)
 
 ### SSH Working
 
