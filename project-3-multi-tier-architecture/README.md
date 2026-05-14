@@ -89,26 +89,15 @@ This design reflects real-world cloud architectures where backend systems are pr
 
 ## 📸 Screenshots
 
-### Frontend Login
-
-(Add screenshot)
-
-### Frontend Ping to Backend
-
-(Add screenshot)
-
-### Subnet Configuration
-
-(Add screenshot)
-
-### Backend Service Running
-
-(Add screenshot)
-
-### Frontend to Backend Service Call
-
-(Add screenshot)
-
+![Frontend Login](../screenshots/frontend-terminal-login.png)
+---
+![Frontend Ping to Backend](frontend-ping-backend.png)
+---
+![Subnet Configuration](../screenshots/subnets.png)
+---
+![Backend Service Running](../screenshots/backend-service-running.png)
+---
+![Frontend to Backend Service Call](../screenshots/frontend-to-backend-service.png)
 ---
 
 ## 🔑 Key Takeaways
